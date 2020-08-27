@@ -18,7 +18,6 @@ export default function App() {
   
 
   return (
-    //<GraphQLScreen></GraphQLScreen>
 
     <NavigationContainer>
       <Tab.Navigator>
@@ -32,8 +31,6 @@ export default function App() {
           }}
         
         />
-
-
 
 
         <Tab.Screen name="REST" component={RESTScreen} 
